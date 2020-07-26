@@ -90,8 +90,8 @@
 }
 /* sidebar-right */
 .cart-items{
-  position: fixed;
-  margin-top: 55px;
+  position: relative;
+  top: 55px;
   margin-left: 65%;
   width: 35%;
   height: 100%;
@@ -106,16 +106,14 @@
   height: 100px;
   width: 100px;
 }
-.price {
-  margin-top: 60px;
-}
+
 .billOut {
   margin-top: 20%;
 }
 .billOut > div {
   margin: -10px;
 }
-.billOut-total {
+/* .billOut-total {
   right: 12%;
 }
 .billOut-price {
@@ -123,7 +121,7 @@
 }
 .billOut-desc {
   right: 2%;
-}
+} */
 .btn{
 
   margin-left: 7%;
@@ -146,6 +144,22 @@
 .cancel-btn button{
   background-color: #F24F8A;
 }
-
+.btn-group button {
+  border: 1px solid #82de3a;
+  color: #82de3a;
+  background-color: rgba(130, 222, 58, 0.2);
+  padding: 5px 10px;
+  font-weight: bold;
+}
+.qty {
+  color: #82de3a;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #82de3a;
+  padding: 5px 10px;
+}
+.my-col {
+  border: 2px solid black;
+}
 
 
