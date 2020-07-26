@@ -7,7 +7,7 @@
   <title>Home</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="../css/add-data.css" />
 </head>
 
 <body>
@@ -16,7 +16,7 @@
     <div class="navbar-menu">
       <img src="../assets/menu.png" alt="logo menu" />
     </div>
-    <div class="page-title">
+    <div class="food-items">
       <h4 class="font-weight-bold">Food Items</h4>
     </div>
     <div class="search">
@@ -45,7 +45,7 @@
         </div>
         <div class=".col col-md-4">
           <img src="../assets/bear.png" alt="" />
-          <p>Coffee Latte</p>
+          <p>Cofee Latte</p>
           <h5 class="font-weight-bold">Rp. 15.000</h5>
         </div>
         <div class=".col col-md-4">
@@ -70,7 +70,7 @@
         </div>
         <div class=".col col-md-4">
           <img src="../assets/chickenkatsu.png" alt="" />
-          <p>Chicken Katsu Dabu-dabu</p>
+          <p>Chiken Katsu Dabu-dabu</p>
           <h5 class="font-weight-bold">Rp. 60.000</h5>
         </div>
         <div class=".col col-md-4">
@@ -89,8 +89,67 @@
     <div class="cart-items">
       <img src="../assets/food-and-restaurant.png" alt="">
       <div class="no-chart">
-          <h4 class="font-weight-bold">Your cart is empty</h4>
-          <p>Please add some items from the menu</p>
+        <h4 class="font-weight-bold">Your cart is empty</h4>
+        <p>Please add some items from the menu</p>
+      </div>
+    </div>
+    <div class="modall">
+      <div class="popup">
+        <div class="popup-top">
+          <div class="row">
+            <div class="col">
+              <h4 class="font-weight-bold">Add item</h4>
+            </div>
+          </div>
+        </div>
+        <div class="popup-mid">
+          <div class="row">
+            <div class="col-md-3">
+              <h5 class="font-weight-bold each-food-name">Name</h5>
+            </div>
+            <div class="col">
+              <input class="popup-input-form" type="text" id="fname" name="name">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <h5 class="font-weight-bold each-food-name">Image</h5>
+            </div>
+            <div class="col">
+              <input class="popup-input-form" type="text" id="image" name="image">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <h5 class="font-weight-bold each-food-name">Price</h5>
+            </div>
+            <div class="col">
+              <input class="popup-input-price" type="text" id="price" name="price">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-3">
+              <h5 class="font-weight-bold each-food-name">Category</h5>
+            </div>
+            <div class="col">
+              <select class="popup-input-category"id="category" name="category">
+                <option value="food">Food</option>
+                <option value="drink">Drink</option>
+                <option value="snack">Snack</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="popup-bot">
+          <div class="row justify-content-end popup-btn">
+            <div class="col-md-3 popup-btn-print">
+              <button>Cancel</button>
+            </div>
+            <div class="col-md-3 popup-btn-email">
+              <button>Add</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
