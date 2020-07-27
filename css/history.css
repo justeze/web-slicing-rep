@@ -85,7 +85,6 @@
 
 .content-text h4 {
   width: 100%;
-  font-family: 'airbnb_cereal_applight';
   font-weight: normal;
   font-size: 25px;
   text-align: center;
@@ -96,35 +95,6 @@
   font-weight: bold;
   font-size: 25px;
   text-align: center;
-}
-
-.right-sidebar-container {
-  width: 35%;
-  height: 100%;
-  background: #FFFFFF;
-  border: 1px solid #CECECE;
-}
-
-.right-sidebar-content {
-  text-align: center;
-  margin-top: 50px;
-}
-
-.right-sidebar-content h4 {
-  font-size: 30px;
-}
-
-.right-sidebar-content p {
-  padding: 0 10px;
-  /* padding-right: 10px; */
-  font-size: 20px;
-  color: #CECECE;
-}
-
-.right-sidebar-content img {
-  height: 40%;
-  width: 40%;
-  object-fit: contain;
 }
 
 .card {
